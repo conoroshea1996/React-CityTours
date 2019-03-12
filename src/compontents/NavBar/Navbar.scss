@@ -1,0 +1,35 @@
+@import "../../index.scss";
+
+.Navbar{
+   background: $mainBlack;
+   padding: 0.5rem;
+   display:grid;
+   grid-template-columns: auto 1fr;
+}
+.Navbar img{
+    height: 120px;
+}
+.Nav-links{
+    align-self: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+.Nav-link{
+    color: $mainWhite;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.3s ease;
+
+    &:hover{
+        color:$mainGreen;
+    }
+
+}
+.Nav-link-active{
+    font-size: 24px;
+    color:$mainGreen;
+    text-decoration: none;
+}
+

@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+$mainGrey:rgb(112, 112, 112);
+$mainGreen: rgb(8, 255, 8);
+$mainWhite: white;
+$mainBlack: rgb(0, 0, 0);
+
+body{
+    background: $mainWhite;
+    color: $mainWhite;
+    font-family: 'Sniglet', cursive;
+}
